@@ -64,22 +64,32 @@ footer {
     flex-wrap: wrap;
 }
 
+footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+}
+
 /* sections  */
 
-section {
+/* section {
     display: flex;
     flex-direction: row;
+} */
+article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
-img {
-    float: left;
+ article img {
+    width: 50%;
+    border-radius: 15px;
 }
 
 p {
     float: right;
-}
-
-/* Footer */
-
-.contact {
-    display: flex;
 }
